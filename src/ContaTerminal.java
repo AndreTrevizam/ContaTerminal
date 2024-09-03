@@ -5,8 +5,6 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        new Screen();
-
         System.out.println("Por favor, digite o número de usuário: ");
         int usuario = scanner.nextInt();
         scanner.nextLine();  // Consumir a nova linha restante
